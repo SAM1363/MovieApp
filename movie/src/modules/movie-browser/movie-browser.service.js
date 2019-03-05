@@ -23,3 +23,6 @@ export const getMovieDetails = async ({movieId}) => {
     const fullUrl = createMovieDbUrl(`/movie/${movieId}`);
     return fetch(fullUrl);
 }
+
+
+
